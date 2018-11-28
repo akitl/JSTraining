@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	overflow: hidden;
+}
+
+div{
+	position:absolute;
+}
+
+.Circle {
+	top:40%;
+	left:40%;
+	
+	width:20px;
+	height:20px;
+	
+	background-color:  rgb(250, 20, 12);
+	border-radius: 50px;
+}
