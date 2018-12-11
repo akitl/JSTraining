@@ -1,0 +1,200 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	overflow: hidden;
+}
+
+div{
+	position:absolute;
+}
+
+
+
+/* Background */
+
+#player1{
+    border: solid black;
+    width: 50%;
+    height: 100%;
+}
+
+#player2{
+    border: solid black;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+}
+
+/* Background */
+
+
+
+
+/* Life's Bar */
+
+.bar { /*BAR'S FORM*/
+    height:20px;
+    width:40%;
+    border-radius:10px;
+    border: solid black;
+    
+}
+
+.progress { /*BAR'S FORM*/
+    height:20px;
+    width:0%;
+    border-radius: 5px;
+}
+
+#life1{ /*BAR LIFE2'S POSITION*/
+    top:20px;
+    left: -2000%;
+}
+
+#life2{ /*BAR LIFE2'S POSITION*/
+    top:20px;
+    right: -2000%;
+}
+
+#progress1{ /*BAR LIFE2'S POSITION*/
+
+}
+
+#progress2{ /*BAR LIFE2'S POSITION*/
+   
+}
+
+/* Life's Bar */
+
+
+
+
+/* Attack */
+
+#attack1 {
+    left:30%;
+    top:50px;
+    padding: 5px;
+    
+    font-family: fantasy;
+    border-radius: 10px;
+    border: solid black;
+}
+
+#attack2 {
+    right:30%;
+    top:50px;
+    padding: 5px;
+    
+    font-family: fantasy;
+    border-radius: 10px;
+    border: solid black;
+}
+
+/* Attack */
+
+
+
+/*Room*/
+
+#room{ /*Room'S FORM*/
+    top:5%;
+    left:50%;
+    height:50px;
+    width:200px;
+    margin-left:-100px;
+    margin-top:20px;
+
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    border: solid black;
+    
+}
+
+/*Room*/
+
+
+
+
+/*Perso1*/
+
+#perso1 { /*Perso1'S FORM*/
+    top:50%;
+    margin-top:-250px;
+    /*left:25%;*/
+    left:-600px;
+    
+    border: solid black;
+    font-size:25px;
+    
+    height:500px;
+    width:200px;
+
+}
+
+/*Perso1*/
+
+
+
+
+
+/*Perso2*/
+
+#perso2 { /*Perso2'S FORM*/
+    top:50%;
+    margin-top:-250px;
+    /*right:25%;*/
+    right:-600px;
+    
+    border: solid black;
+    font-size:25px;
+    
+    height:500px;
+    width:200px;
+
+}
+
+/*Perso*/
+
+
+
+
+/*Dice*/
+
+.dice {
+    
+    height: 100px;
+    width: 100px;
+    border: solid black;
+    
+    top: 85%;
+}
+
+#dice1 {
+    
+    left: 40%;
+    
+}
+
+#dice2 {
+    
+    left: 60%;
+    
+}
+
+#dice3 {
+    
+    right: 40%;
+    
+}
+
+#dice4 {
+    
+    right: 60%;
+    
+}
+/*Dice*/
